@@ -7,4 +7,4 @@ class AppDispatcher extends Dispatcher {
   }
 }
 
-export default new AppDispatcher();
+export default new Dispatcher();
