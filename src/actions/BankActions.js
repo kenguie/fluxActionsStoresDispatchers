@@ -16,7 +16,7 @@ let BankActions = {
   },
   withdrawFromAccount(ammount) {
     AppDispatcher.dispatch({
-      type: backConstants.WITHDREW_FROM_ACCOUNT,
+      type: bankConstants.WITHDREW_FROM_ACCOUNT,
       ammount: ammount
     });
   }
